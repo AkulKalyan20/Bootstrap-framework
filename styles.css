@@ -1,0 +1,47 @@
+/* Custom CSS */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Hero section styling */
+.display-4 {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* Card styling */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    .lead {
+        font-size: 1.2rem;
+    }
+}
+
+/* Navbar adjustments */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Button styling */
+.btn-lg {
+    padding: 0.75rem 2rem;
+    font-weight: 500;
+}
